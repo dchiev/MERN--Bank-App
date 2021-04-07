@@ -1,1 +1,1 @@
-# MERN--Bank-App
+# MERN-Bank-App

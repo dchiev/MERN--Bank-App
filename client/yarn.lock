@@ -5983,9 +5983,11 @@
     "express" "^4.16.4"
     "is-empty" "^1.2.0"
     "jsonwebtoken" "^8.3.0"
+    "moment" "^2.29.1"
     "mongoose" "^5.3.11"
     "passport" "^0.4.0"
     "passport-jwt" "^4.0.0"
+    "plaid" "^8.2.1"
     "validator" "^10.9.0"
 
 "methods@~1.1.2":
@@ -7564,13 +7566,14 @@
     "kleur" "^2.0.1"
     "sisteransi" "^0.1.1"
 
-"prop-types@^15.6.1", "prop-types@^15.6.2":
-  "integrity" "sha512-3pboPvLiWD7dkI3qf3KbUe6hKFKa52w+AE0VCqECtf+QHAKgOL37tTaNCnuX1nAAQ4ZhyP+kYVKf8rLmJ/feDQ=="
-  "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.6.2.tgz"
-  "version" "15.6.2"
+"prop-types@^15.6.1", "prop-types@^15.6.2", "prop-types@^15.7.2":
+  "integrity" "sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ=="
+  "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz"
+  "version" "15.7.2"
   dependencies:
-    "loose-envify" "^1.3.1"
+    "loose-envify" "^1.4.0"
     "object-assign" "^4.1.1"
+    "react-is" "^16.8.1"
 
 "proxy-addr@~2.0.4":
   "integrity" "sha512-5erio2h9jp5CHGwcybmxmVqHmnCBZeewlfJ0pex+UW7Qny7OOZXTtH56TGNyBizkgiOwhJtMKrVzDTeKcySZwA=="
@@ -7772,7 +7775,7 @@
     "strip-ansi" "4.0.0"
     "text-table" "0.2.0"
 
-"react-dom@^16.6.3":
+"react-dom@^16.3.1", "react-dom@^16.6.3":
   "integrity" "sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-16.14.0.tgz"
   "version" "16.14.0"
@@ -7787,7 +7790,7 @@
   "resolved" "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-5.1.0.tgz"
   "version" "5.1.0"
 
-"react-is@^16.6.0", "react-is@^16.7.0":
+"react-is@^16.6.0", "react-is@^16.7.0", "react-is@^16.8.1":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
@@ -7796,6 +7799,13 @@
   "integrity" "sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA=="
   "resolved" "https://registry.npmjs.org/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz"
   "version" "3.0.4"
+
+"react-plaid-link-button@^0.0.4":
+  "integrity" "sha512-Skr6YefPiHsAyz3OCfHFNs/NpG4yPA0HIU45BqTndCfgl9z9tOOk46V8Bozb+fIdAWD/bvbMvKow094s0Fr3Qg=="
+  "resolved" "https://registry.npmjs.org/react-plaid-link-button/-/react-plaid-link-button-0.0.4.tgz"
+  "version" "0.0.4"
+  dependencies:
+    "prop-types" "^15.6.1"
 
 "react-redux@^5.1.1":
   "integrity" "sha512-Ns1G0XXc8hDyH/OcBHOxNgQx9ayH3SPxBnFCOidGKSle8pKihysQw2rG/PmciUQRoclhVBO8HMhiRmGXnDja9Q=="
@@ -7890,7 +7900,7 @@
   optionalDependencies:
     "fsevents" "1.2.4"
 
-"react@^0.14.0 || ^15.0.0-0 || ^16.0.0-0", "react@^16.14.0", "react@^16.6.3", "react@>=15":
+"react@^0.14.0 || ^15.0.0-0 || ^16.0.0-0", "react@^16.14.0", "react@^16.3.1", "react@^16.6.3", "react@>=15":
   "integrity" "sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
   "version" "16.14.0"
